@@ -1,0 +1,589 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    text-decoration: none;
+    
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+section{
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.66)),url(img/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.hero-syle-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+
+.btn:link,
+.btn:visited,
+input[type = submit]
+
+{
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 200;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: : background-color 0.2s, border 0.2s, color 0.2s;
+    
+}
+
+
+
+/* This signifies how the button should appear after the user have visited */
+
+.btn-full:link,
+.btn-full:visited,
+input[type = submit]{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    border-radius: 200px;
+    color:white;
+    
+}
+
+
+.btn:hover,
+.btn:active,
+input[type = submit]:hover,
+input[type = submit]:active{
+ background-color: #a15512;
+  
+}
+
+.btn-ghost:link,
+.btn-ghost:visited 
+{
+    
+    border:1px solid #e67e22;
+    color : #e67e22;
+}
+
+
+.btn-full:hover,
+.btn-full:active{
+  border:1px solid #a15512;
+}
+
+/* hover is used when you move your cursor on a button*/
+.btn-ghost:hover,
+.btn-ghost:active{
+border: 1px solid white;
+  color:white;
+}
+
+
+.logo{
+    width: auto;
+    height: 100px;
+    float: left;
+    margin-top: 20px
+}
+
+
+.main-nav{
+    float: right;
+    list-style: none;
+    
+}
+
+.main-nav li{
+   display: inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%
+    
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+    border-bottom: 2px solid transparent;
+    transition:  border-bottom 0.4s;
+    
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active{
+ border-bottom: 2px solid #e67e22;
+    
+    
+}
+
+
+.section-features{
+    margin-top: 35px;
+}
+
+
+
+.icon-big {
+font-size: 350%;
+color: #e67e22;
+padding-left: 35px
+     
+}
+
+
+
+h1{
+    color: white;
+    font-size: 200%;
+    font-weight: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    
+}
+
+
+h2{
+    text-transform: uppercase;
+    font-size: 150%;
+    text-align: center;
+}
+
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: "     ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;    
+    
+}
+
+h3{
+font-size: 100%;
+font-weight: 10%;
+padding-left: 40px
+    
+}
+
+.longtext {
+    padding-bottom: 10px;
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box {
+
+    font-size: 90%;
+    text-align: justify;
+    padding-left: 40px
+}
+
+
+
+/*******************************************************
+Meals Section
+
+
+********************************************************/
+
+.Meals-section{
+    
+    margin-top: 10%;
+    padding: 0;
+}
+
+
+.Meals-line1{
+    list-style: none;
+    width: 100%;
+}
+
+.Meals-line1 li {
+    width: 25%;
+    float: left;
+    display: block;
+    
+}
+
+.meal-pic{
+ background-color: black;
+ width: 100%;
+ margin: 0;
+ overflow: hidden;
+    
+}
+
+
+.meal-pic img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform:scale(1.15);   
+    transition: transform 0.5s, opacity 0.5s;
+    
+}
+
+.meal-pic img:hover{
+    opacity: 1;
+    transform:scale(1.03);
+    
+}
+
+/*******************************************************
+How It Works Section
+
+overflow: hidden;
+********************************************************/
+
+
+
+.appscreen {
+    width: 40%;
+
+    
+}
+
+
+
+.imagebox:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.imagebox:last-child {
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+
+.Howitworksdec{
+    padding-top: 3%;
+    
+}
+
+.works-steps {
+    margin-bottom: 50px;
+   
+}
+
+
+
+
+
+.works-steps div{
+    color: #e67e22;
+    font-size: 150%;
+    height: 54px;
+    width: 54px;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    float: left;
+    padding: 5px;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*****************************************************
+
+                Cities
+*******************************************************/
+
+
+.cities_img{
+    width: 90%;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.cities_div{
+    margin-top: 5%;
+    
+}
+
+
+.cities_section{
+    background-color: #fafafa;
+    word-spacing: 3px;  
+}
+
+.icon-small {
+    color: #e67e22;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    font: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+
+
+
+.cities_div p{
+font-size: 140%;
+font-weight:2;  
+}
+
+a{
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+
+    
+}
+
+/*****************************************************
+
+                Testimonial
+*******************************************************/
+
+.testimonial{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.43),rgba(0, 0, 0, 0.81)), url(img/back-customers.jpg);
+    color: white;
+   
+    background-attachment: fixed;
+
+}
+
+
+
+.customerimg{
+    height: 60px;
+    border-radius: 60px;
+    vertical-align: middle;
+    
+    
+}
+
+
+.custimgdet{
+    margin-top: 10px;
+    vertical-align: middle;
+     display: block;
+    font-size: 80%;
+}
+
+
+
+.custreview{
+    font-style: italic;
+    font-weight: 20;
+    padding-top: 5%;
+    font-size: 100%;
+
+}
+
+
+blockquote {
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+   
+}
+
+blockquote:before {
+    font-size: 50px;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+    
+}
+
+/*****************************************************
+
+                mealPlans-Section
+*******************************************************/
+
+.planbox{
+   border: 1px solid #d8d8d8;
+   margin-top: 10%;
+}
+
+.planname{
+   border-bottom: 1px solid #e3dada;
+    padding: 10px;
+   background-color:  #faf7f7;
+}
+
+.PlanDesc{
+   border-bottom: 1px solid #d8d8d8;
+    padding: 20px;
+}
+
+
+.PlanDescul{
+    list-style: none;
+     line-height: 200%;
+}
+
+.checkclass{
+    color: #e67e22;
+    padding-right: 10px
+}
+
+
+
+.planfotter{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.Price-meal{
+    color: #e67e22;
+    font-size: 250%;
+    font-weight: 300;
+}
+
+.Price-Desc{
+    font-size: 80%;
+    padding-top: 20px;
+}
+
+.planbox h3{
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+.Price-meal span{
+    font-size: 70%;
+    
+}
+
+/*****************************************************
+
+                Contact US-Section
+*******************************************************/
+
+.form-class{
+  width: 60%;
+  margin: 0 auto;
+    margin-top: 20px;
+  }
+
+
+
+input[type = text],
+input[type = email],
+select,
+textarea{
+    width: 100%;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid #b7b7b7;
+    
+}
+
+
+
+*:focus{
+    outline: none;
+}
+
+textarea{
+    height: 80px;
+}
+
+/*****************************************************
+                 Footer
+*******************************************************/
+
+
+
+
+.pageFotter{
+    background-color: #1a1919;
+    height: 100px
+}
+
+.socialmediaIcon{
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-left: 20px;
+}
+
+.socialmediaIcon:last-child{
+    margin-right: 40px;
+}
+ 
+
+.Detailsfooter a{
+    color: white;
+    float: left;
+    padding-left: 20px;
+    text-decoration: none;
+    border-bottom: none;
+
+}
+
+.finaltouch{
+    text-align: center;
+    color: white;
+}
+
+
+
+ 
